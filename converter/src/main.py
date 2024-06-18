@@ -106,7 +106,6 @@ def convert_to_sarif(nodes, edges):
                 "executionOrder": int(edge_data.get('executionOrder', 0))
             }
         }
-        #print(sarif['runs'][0]['results'])
         #sarif['runs'][0]['results']['codeFlows'][0]['threadFlows'][0]['locations'].append(thread_flow_location)
     
     return sarif
