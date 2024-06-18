@@ -25,4 +25,4 @@ jobs:
           sarif_file: result.sarif
 
       - name: Visualize SARIF results
-        uses: github/codeql-action/visualize-sarif@v1
+        uses: github/codeql-action/visualize-sarif@v3
